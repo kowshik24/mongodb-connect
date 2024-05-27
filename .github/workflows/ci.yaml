@@ -31,7 +31,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install --upgrade flake8 pytest tox tox-gh-actions  # Ensure tox and tox-gh-actions are updated
+        pip uninstall tox-gh-actions -y
+        pip install tox-gh-actions
         pip install -r requirements.txt
     - name: Test with tox
       run: tox
