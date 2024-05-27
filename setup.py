@@ -27,7 +27,7 @@ print("Current Files: ", os.listdir("."))
 
 __version__ = "0.0.1"
 REPO_NAME = "mongodb-connect"
-PKG_NAME = "MongoDB-Connect"
+PKG_NAME = "MongoDB_Connect"
 AUTHOR_NAME = "kowshik24"
 AUTHOR_EMAIL = "kowshikcseruet1998@gmail.com"
 
@@ -47,6 +47,6 @@ setup(
     },
     package_dir = {"": "src"},
     packages=find_packages(where="src"),
-    install_requires=get_requirements("./requirements_dev.txt"),
+    install_requires=get_requirements("requirements_dev.txt"),
 )
 
