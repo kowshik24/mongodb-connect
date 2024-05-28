@@ -27,7 +27,7 @@ print("Current Files: ", os.listdir("."))
 
 __version__ = "0.0.1"
 REPO_NAME = "mongodb-connect"
-PKG_NAME = "MongoDB_Connect"
+PKG_NAME = "mongodatabaseconnnect"
 AUTHOR_NAME = "kowshik24"
 AUTHOR_EMAIL = "kowshikcseruet1998@gmail.com"
 
